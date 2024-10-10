@@ -12,8 +12,6 @@ function PaRouImpar(numero: number): string {
   function receberNumero(): void {
     const entrada = prompt("Digite um número:"); 
     const numero = Number(entrada);
-    if (isNaN(numero)) {
-      console.log("Por favor, insira um número válido.");
     } else {
       const resultado = PaRouImpar(numero);
       console.log(resultado);
