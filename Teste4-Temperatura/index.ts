@@ -8,13 +8,9 @@ function converterTemperatura(fahrenheit: number): string {
 }
 receberTemperatura();
 function receberTemperatura(): void {
-    const entrada = prompt("Digite uma temperatura em Fahrenheit:"); // Recebe a entrada do usuário
-    const fahrenheit = Number(entrada); // Converte a entrada para número
-    if (isNaN(fahrenheit)) {
-        console.log("Por favor, insira um número válido.");
-    } else {
-        const resultado = converterTemperatura(fahrenheit);
+    const entrada = prompt("Digite uma temperatura em Fahrenheit:");
+    const fahrenheit = Number(entrada);
+    const resultado = converterTemperatura(fahrenheit);
         console.log(resultado);
-    }
-}
+ }
 
