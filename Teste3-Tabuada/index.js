@@ -4,8 +4,8 @@ var promptSync = require("prompt-sync");
 var prompt = promptSync();
 function exibirTabuada(n) {
     for (var i = 1; i <= 10; i++) {
-        var resultado = n * i;
-        console.log("".concat(n, " x ").concat(i, " = ").concat(resultado));
+        var resultado = n + i;
+        console.log("".concat(n, " + ").concat(i, " = ").concat(resultado));
     }
 }
 receberNumero();
