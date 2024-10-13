@@ -3,11 +3,11 @@ var prompt = promptSync()
 
 
 function PaRouImpar(numero: number): string {
-    const parOuImpar = numero % 2 === 0 ? 'par' : 'ímpar';
-    const positivoOuNegativo = numero >= 0 ? 'positivo' : 'negativo';
-    return `O número ${numero} é ${parOuImpar} e ${positivoOuNegativo}.`;
+    const parOuImpar = numero % 2 === 0 ? 'Par' : 'Impar';
+    const positivoOuNegativo = numero >= 0 ? 'Positivo' : 'Negativo';
+    return `O Número ${numero} é ${parOuImpar} é ${positivoOuNegativo}.`;
   }
- 
+  receberNumero();
   function receberNumero(): void {
     const entrada = prompt("Digite um número:");
     const numero = Number(entrada);
@@ -18,4 +18,3 @@ function PaRouImpar(numero: number): string {
       console.log(resultado);
     }
   }
-  receberNumero();
