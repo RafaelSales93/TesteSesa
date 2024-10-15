@@ -7,7 +7,7 @@ type Pessoa = {
 };
 
 function processarDados(pessoas: Pessoa[]): void {
-    let maiorAltura = -Infinity;
+    let maiorAltura = Infinity;
     let menorAltura = Infinity;
     let somaAlturaMulheres = 0;
     let quantidadeMulheres = 0;

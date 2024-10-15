@@ -3,7 +3,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var promptSync = require("prompt-sync");
 var prompt = promptSync();
 function processarDados(pessoas) {
-    var maiorAltura = -Infinity;
+    var maiorAltura = Infinity;
     var menorAltura = Infinity;
     var somaAlturaMulheres = 0;
     var quantidadeMulheres = 0;
