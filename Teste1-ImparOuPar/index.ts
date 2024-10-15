@@ -8,7 +8,7 @@ function PaRouImpar(numero: number): string {
     return `O Número ${numero} é ${parOuImpar} é ${positivoOuNegativo}.`;
   }
   receberNumero();
-  function receberNumero(): void {
+  function receberNumero(): void{
     const entrada = prompt("Digite um número:");
     const numero = Number(entrada);
     if (isNaN(numero)) {
